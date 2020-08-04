@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{B279EFF5-34BB-48AA-8D78-E28F356F1A25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{51D27D1F-242C-4467-B655-BA52036BA924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyMap_Tool", "MyMap_Tool", "{30C378AD-150C-42C9-AB0C-2639C3572A77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SuperClass", "SuperClass", "{8AE2F78E-078B-4843-B623-B3CD6B603C94}"
+	ProjectSection(SolutionItems) = preProject
+		SuperClass\Base.h = SuperClass\Base.h
+		SuperClass\Base.inl = SuperClass\Base.inl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.System", "00.System", "{30CE7EE5-CBF5-439B-967D-6FAE24A85570}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Utility", "01.Utility", "{A74E3386-A6EC-4D6C-A8F1-42759AFF76BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Resources", "02.Resources", "{1C7605B0-D1E7-44FD-A7A6-C7E433A9F71D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.Headers", "99.Headers", "{33D18C48-AF58-4EF9-A306-97EB07AC64F5}"
+	ProjectSection(SolutionItems) = preProject
+		Engine\Headers\Engine_Defines.h = Engine\Headers\Engine_Defines.h
+		Engine\Headers\Engine_Function.h = Engine\Headers\Engine_Function.h
+		Engine\Headers\Engine_Functor.h = Engine\Headers\Engine_Functor.h
+		Engine\Headers\Engine_Macro.h = Engine\Headers\Engine_Macro.h
+		Engine\Headers\Engine_Struct.h = Engine\Headers\Engine_Struct.h
+		Engine\Headers\Engine_Typedef.h = Engine\Headers\Engine_Typedef.h
+		Engine\Export\Export_Function.h = Engine\Export\Export_Function.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Default\Client.vcxproj", "{995EFE52-343B-44C4-BCAA-878B88DE09E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "System", "Engine\System\Default\System.vcxproj", "{2C5FB660-995F-4B62-BEC2-67609BDDA564}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "Engine\Utility\Default\Utility.vcxproj", "{8ED1B360-443B-4C5A-9FA7-724FB3E673BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Resources", "Engine\Resources\Default\Resources.vcxproj", "{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyMap_Tool", "MyMap_Tool\Default\MyMap_Tool.vcxproj", "{EC75B876-3417-49D6-AEBE-89D2A3781B86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{995EFE52-343B-44C4-BCAA-878B88DE09E1}.Debug|x64.ActiveCfg = Debug|x64
+		{995EFE52-343B-44C4-BCAA-878B88DE09E1}.Debug|x64.Build.0 = Debug|x64
+		{995EFE52-343B-44C4-BCAA-878B88DE09E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{995EFE52-343B-44C4-BCAA-878B88DE09E1}.Debug|x86.Build.0 = Debug|Win32
+		{995EFE52-343B-44C4-BCAA-878B88DE09E1}.Release|x64.ActiveCfg = Release|x64
+		{995EFE52-343B-44C4-BCAA-878B88DE09E1}.Release|x64.Build.0 = Release|x64
+		{995EFE52-343B-44C4-BCAA-878B88DE09E1}.Release|x86.ActiveCfg = Release|Win32
+		{995EFE52-343B-44C4-BCAA-878B88DE09E1}.Release|x86.Build.0 = Release|Win32
+		{2C5FB660-995F-4B62-BEC2-67609BDDA564}.Debug|x64.ActiveCfg = Debug|x64
+		{2C5FB660-995F-4B62-BEC2-67609BDDA564}.Debug|x64.Build.0 = Debug|x64
+		{2C5FB660-995F-4B62-BEC2-67609BDDA564}.Debug|x86.ActiveCfg = Debug|Win32
+		{2C5FB660-995F-4B62-BEC2-67609BDDA564}.Debug|x86.Build.0 = Debug|Win32
+		{2C5FB660-995F-4B62-BEC2-67609BDDA564}.Release|x64.ActiveCfg = Release|x64
+		{2C5FB660-995F-4B62-BEC2-67609BDDA564}.Release|x64.Build.0 = Release|x64
+		{2C5FB660-995F-4B62-BEC2-67609BDDA564}.Release|x86.ActiveCfg = Release|Win32
+		{2C5FB660-995F-4B62-BEC2-67609BDDA564}.Release|x86.Build.0 = Release|Win32
+		{8ED1B360-443B-4C5A-9FA7-724FB3E673BD}.Debug|x64.ActiveCfg = Debug|x64
+		{8ED1B360-443B-4C5A-9FA7-724FB3E673BD}.Debug|x64.Build.0 = Debug|x64
+		{8ED1B360-443B-4C5A-9FA7-724FB3E673BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{8ED1B360-443B-4C5A-9FA7-724FB3E673BD}.Debug|x86.Build.0 = Debug|Win32
+		{8ED1B360-443B-4C5A-9FA7-724FB3E673BD}.Release|x64.ActiveCfg = Release|x64
+		{8ED1B360-443B-4C5A-9FA7-724FB3E673BD}.Release|x64.Build.0 = Release|x64
+		{8ED1B360-443B-4C5A-9FA7-724FB3E673BD}.Release|x86.ActiveCfg = Release|Win32
+		{8ED1B360-443B-4C5A-9FA7-724FB3E673BD}.Release|x86.Build.0 = Release|Win32
+		{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884}.Debug|x64.ActiveCfg = Debug|x64
+		{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884}.Debug|x64.Build.0 = Debug|x64
+		{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884}.Debug|x86.Build.0 = Debug|Win32
+		{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884}.Release|x64.ActiveCfg = Release|x64
+		{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884}.Release|x64.Build.0 = Release|x64
+		{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884}.Release|x86.ActiveCfg = Release|Win32
+		{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884}.Release|x86.Build.0 = Release|Win32
+		{EC75B876-3417-49D6-AEBE-89D2A3781B86}.Debug|x64.ActiveCfg = Debug|x64
+		{EC75B876-3417-49D6-AEBE-89D2A3781B86}.Debug|x64.Build.0 = Debug|x64
+		{EC75B876-3417-49D6-AEBE-89D2A3781B86}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC75B876-3417-49D6-AEBE-89D2A3781B86}.Debug|x86.Build.0 = Debug|Win32
+		{EC75B876-3417-49D6-AEBE-89D2A3781B86}.Release|x64.ActiveCfg = Release|x64
+		{EC75B876-3417-49D6-AEBE-89D2A3781B86}.Release|x64.Build.0 = Release|x64
+		{EC75B876-3417-49D6-AEBE-89D2A3781B86}.Release|x86.ActiveCfg = Release|Win32
+		{EC75B876-3417-49D6-AEBE-89D2A3781B86}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30CE7EE5-CBF5-439B-967D-6FAE24A85570} = {51D27D1F-242C-4467-B655-BA52036BA924}
+		{A74E3386-A6EC-4D6C-A8F1-42759AFF76BC} = {51D27D1F-242C-4467-B655-BA52036BA924}
+		{1C7605B0-D1E7-44FD-A7A6-C7E433A9F71D} = {51D27D1F-242C-4467-B655-BA52036BA924}
+		{33D18C48-AF58-4EF9-A306-97EB07AC64F5} = {51D27D1F-242C-4467-B655-BA52036BA924}
+		{995EFE52-343B-44C4-BCAA-878B88DE09E1} = {B279EFF5-34BB-48AA-8D78-E28F356F1A25}
+		{2C5FB660-995F-4B62-BEC2-67609BDDA564} = {30CE7EE5-CBF5-439B-967D-6FAE24A85570}
+		{8ED1B360-443B-4C5A-9FA7-724FB3E673BD} = {A74E3386-A6EC-4D6C-A8F1-42759AFF76BC}
+		{C9D4EA6D-52D6-4BDB-9BEC-6ED7BB44A884} = {1C7605B0-D1E7-44FD-A7A6-C7E433A9F71D}
+		{EC75B876-3417-49D6-AEBE-89D2A3781B86} = {30C378AD-150C-42C9-AB0C-2639C3572A77}
+	EndGlobalSection
+EndGlobal

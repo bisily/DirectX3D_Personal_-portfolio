@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Resources">
+      <UniqueIdentifier>{8da3e3d8-1d9d-45f0-8041-a83ebe120c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Buffer">
+      <UniqueIdentifier>{56d05bf3-1037-4995-a078-d331821459b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Buffer\RcCol">
+      <UniqueIdentifier>{83e45dbe-a71d-4d45-8906-3fbf48818492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Mesh">
+      <UniqueIdentifier>{fd2caf56-e9a0-4c43-a0a1-574c61719694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Texture">
+      <UniqueIdentifier>{6eb68021-b844-412d-97c6-87f26f8f2b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Manager">
+      <UniqueIdentifier>{67c40468-bc21-4ea4-afea-db394e02af45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Export_Function">
+      <UniqueIdentifier>{67d4d743-ba35-4e16-a690-2b3cbd1245b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Buffer\RcTex">
+      <UniqueIdentifier>{c6acaa9b-a5e6-4584-b195-26fc8c03d746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Buffer\TerrainTex">
+      <UniqueIdentifier>{c9746e93-4f1d-46fb-aea2-0755b00c4bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Mesh\00.StaticMesh">
+      <UniqueIdentifier>{0cb733af-8aa4-481d-bd63-6ffd6c496f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Buffer\CubeTex">
+      <UniqueIdentifier>{fef9e2d2-b480-45da-b79a-1c41c523ef2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Mesh\02.DynamicMesh">
+      <UniqueIdentifier>{60377cf4-03f3-44e0-9a67-2755c31ac3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Mesh\03.Loader">
+      <UniqueIdentifier>{8ab47d67-4976-4dd5-997d-55dee3137b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Mesh\04.AnimationCtrl">
+      <UniqueIdentifier>{0d4ef313-6203-4551-93be-dd08ed7f88e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Mesh\01.NaviMesh">
+      <UniqueIdentifier>{f9256ef5-ffdc-47d3-aa9f-de25ab1953ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Mesh\01.NaviMesh\00.Cell">
+      <UniqueIdentifier>{7e825133-f5b5-434a-8e11-889ee3e67447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Mesh\01.NaviMesh\01.Line">
+      <UniqueIdentifier>{f74e75b2-fbeb-48dd-b163-e1b85b38af87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\Buffer\TrailTex">
+      <UniqueIdentifier>{ee182d68-8f1c-4395-b0e1-b089f48a5708}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\ResourcesMgr.cpp">
+      <Filter>00. Resources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Resources.cpp">
+      <Filter>00. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer.cpp">
+      <Filter>00. Resources\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RcCol.cpp">
+      <Filter>00. Resources\Buffer\RcCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Texture.cpp">
+      <Filter>00. Resources\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RcTex.cpp">
+      <Filter>00. Resources\Buffer\RcTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TerrainTex.cpp">
+      <Filter>00. Resources\Buffer\TerrainTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Mesh.cpp">
+      <Filter>00. Resources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StaticMesh.cpp">
+      <Filter>00. Resources\Mesh\00.StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CubeTex.cpp">
+      <Filter>00. Resources\Buffer\CubeTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicMesh.cpp">
+      <Filter>00. Resources\Mesh\02.DynamicMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\HierachyLoader.cpp">
+      <Filter>00. Resources\Mesh\03.Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\AnimationCtrl.cpp">
+      <Filter>00. Resources\Mesh\04.AnimationCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NaviMesh.cpp">
+      <Filter>00. Resources\Mesh\01.NaviMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cell.cpp">
+      <Filter>00. Resources\Mesh\01.NaviMesh\00.Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Line.cpp">
+      <Filter>00. Resources\Mesh\01.NaviMesh\01.Line</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TrailTex.cpp">
+      <Filter>00. Resources\Buffer\TrailTex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\ResourcesMgr.h">
+      <Filter>00. Resources\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Resources.h">
+      <Filter>00. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\VIBuffer.h">
+      <Filter>00. Resources\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\RcCol.h">
+      <Filter>00. Resources\Buffer\RcCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Export\Export_Resources.h">
+      <Filter>99. Export_Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Texture.h">
+      <Filter>00. Resources\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\RcTex.h">
+      <Filter>00. Resources\Buffer\RcTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TerrainTex.h">
+      <Filter>00. Resources\Buffer\TerrainTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Mesh.h">
+      <Filter>00. Resources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StaticMesh.h">
+      <Filter>00. Resources\Mesh\00.StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CubeTex.h">
+      <Filter>00. Resources\Buffer\CubeTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DynamicMesh.h">
+      <Filter>00. Resources\Mesh\02.DynamicMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\HierachyLoader.h">
+      <Filter>00. Resources\Mesh\03.Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\AnimationCtrl.h">
+      <Filter>00. Resources\Mesh\04.AnimationCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\NaviMesh.h">
+      <Filter>00. Resources\Mesh\01.NaviMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Cell.h">
+      <Filter>00. Resources\Mesh\01.NaviMesh\00.Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Line.h">
+      <Filter>00. Resources\Mesh\01.NaviMesh\01.Line</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TrailTex.h">
+      <Filter>00. Resources\Buffer\TrailTex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_Resources.inl">
+      <Filter>99. Export_Function</Filter>
+    </None>
+  </ItemGroup>
+</Project>

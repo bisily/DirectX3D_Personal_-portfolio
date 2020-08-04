@@ -1,0 +1,59 @@
+
+0	PL_SATTACK2_END,		점프공격 끝
+1	PL_SATTACK2_LOOP,		점프공격 루프
+2	PL_SATTACK2_START,		점프공격 시작
+3	PL_SATTACK1_REVERT,		점프공격 복귀
+4	PL_SATTACK1,			전방점프 어택
+5	PL_JUMPSATK_END,		공중점프 어택 끝
+6	PL_JUMPSATK_LOOP,		공중점프 어택 루프
+7	PL_JUMPSATK_START,		공중점프 어택 시작
+8	PL_JUMPATK3,			공중공격 3 (머리 위에서 아래로 베기)
+9	PL_JUMPATK2,			공중공격 2 (왼쪽에서 오른쪽 베기)
+10	PL_JUMPATK1,			공중공격 1 (오른쪽에서 왼쪽 위로 베기)
+11	PL_RISE,			기상
+12	PL_HITDOWN1_DOWN,		
+13	PL_HITDOWN1_FIN,
+14	PL_HITDOWN1_END,
+15	PL_HITDOWN1_LOOP,
+16	PL_HITDOWN1_START,
+17	PL_HITSTAND2,
+18	PL_HITSTAND1,
+19	PL_ATTACK8_REVERT,		1회전 공격 복귀
+20	PL_ATTACK8,			1회전 공격
+21	PL_ATTACK7_REVERT,		하단 쓸어올리기 복귀
+22	PL_ATTACK7,			하단 쓸어올리기 
+23	PL_ATTACK6_REVERT,		전방 슬레쉬 복귀
+24	PL_ATTACK6,			전방 슬레쉬
+25	PL_ATTACK5_REVERT,		전방 회전 내려 베기 복귀
+26	PL_ATTACK5,			전방 회전 내려 베기
+27	PL_ATTACK4_REVERT,		찌른 상태에서 베기 복귀
+28	PL_ATTACK4,			찌른 상태에서 베기
+29	PL_ATTACK3_REVERT,		찌르기 복귀
+30	PL_ATTACK3,			찌르기
+31	PL_ATTACK2_REVERT,		전방 앞으로 베기 복귀
+32	PL_ATTACK2,			전방 앞으로 베기
+33	PL_ATTACK1_REVERT,		전방 사선 베기 복귀
+34	PL_ATTACK1_STAND,		전방 사선 베기(오른쪽에서 왼쪽)
+35	PL_ATTACK1_RUN,			전방 사선 베기 길게?
+36	PL_JUMPDASH_LEFT,		점프 왼쪽 대쉬
+37	PL_JUMPDASH_RIGHT,		점프 오른쪽 대쉬
+38	PL_JUMPDASH_BACK,		점프 뒤로 대쉬
+39	PL_JUMPDASH_FRONT,		점프 전방 대쉬
+40	PL_DASHLEFT,			왼쪽 대쉬
+41	PL_DASHRIGHT,			오른쪽 대쉬
+42	PL_DASHBACK,			뒤로 대쉬
+43	PL_DASHFRONT,			전방 대쉬
+44	PL_JUMPBACK,			뒤로 점프
+45	PL_JUMPRIGHT,			오른쪽 점프
+46	PL_JUMPLEFT,			왼쪽 점프
+47	PL_JUMPFWD_LOOP,		높은 왼쪽 점프
+48	PL_JUMPFWD,			공중에 있음
+49	PL_JUMPUP_END,			높은 점프 끝
+50	PL_JUMPUP_LOOP,			높은 점프 루프
+51	PL_JUMPUP,			높은 점프 시작
+52	PL_PRERUN,			전방 질주
+53	PL_STOP,			멈춤
+54	PL_RUN,				달리기
+55	PL_STAND_IDLE,			서있기
+56	PL_TRANS_AIDLETOSIDLE,		허리에 손 집고 서 있기
+57	PL_ATTACK_IDLE			공격 대기모션

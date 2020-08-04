@@ -1,0 +1,63 @@
+Player Collision Kind
+
+Bore_Name	Size
+
+BODY2 		0.1
+BODY1		0.1
+R_FOOT1		0.05
+R_FOOT2		0.05
+L_FOOT1		0.05
+L_FOOT2		0.05
+R_LEG2		0.05
+R_LEG1		0.05
+L_LEG2		0.05
+L_LEG1		0.05
+R_ARM1		0.05
+L_ARM1		0.05
+L_ARM2		0.05
+L_Hand		0.05
+R_ARM2		0.05
+R_Hand		0.05
+HEAD		0.1
+
+17°³
+
+Boss Collision Kind
+
+Bore_Name	Size
+
+BODY1		0.5
+R_LEG2		0.3
+L_LEG2		0.3
+R_ARM1		0.2
+L_ARM1		0.2
+L_ARMARMOR_I	0.2
+R_ARMARMOR	0.2
+HEAD		0.4
+
+8°³
+
+Monster00 Collision Kind
+
+Bore_Name	Size
+
+L_FOOT		0.15
+R_FOOT		0.15
+L_LEG2		0.15
+R_LEG1		0.15
+R_LEG2		0.15
+BODY1		0.2
+BODY2		0.2
+L_LEG1		0.15
+0.1000		0.1
+HEAD		0.2
+L_ARM1		0.1
+R_ARM1		0.1
+R_ARM2		0.1
+L_Hand		0.1
+R_Hand		0.1
+
+15°³
+
+Monster01 Collision Kind
+

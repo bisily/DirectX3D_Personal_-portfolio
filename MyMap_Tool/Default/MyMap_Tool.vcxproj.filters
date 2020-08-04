@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainFrame">
+      <UniqueIdentifier>{7fc56d4c-af5e-42bf-bc19-3a57e30a8d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View">
+      <UniqueIdentifier>{2608bf3c-fe08-4fb0-9c77-a668f6337090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{41e5f5c8-5c6f-49a5-b3e5-3c02c0729e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{61198af2-e25b-4407-bdc2-1ddc57f4a434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{cf21c094-1709-4542-83d8-96d788a8e193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj">
+      <UniqueIdentifier>{4e20990a-d888-4746-8c9d-d7b682a8fa70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Mgr">
+      <UniqueIdentifier>{a0ae38c6-e1e5-45e0-b0c9-e5bda73883bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\00.MyForm">
+      <UniqueIdentifier>{2c7bd9ea-4461-4549-b918-d607e2d0ebcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.Stage">
+      <UniqueIdentifier>{29250ec7-e6ca-4971-8614-358e8d94bcbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\00.Terrain">
+      <UniqueIdentifier>{e610412d-f5a8-4367-908c-95eea73194cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\01.DynamicCamera">
+      <UniqueIdentifier>{223b033f-8467-410e-87f2-31e8fc1c9b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\02.SkyBox">
+      <UniqueIdentifier>{20ca2206-d761-4533-9072-404f39fab67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\03.StaticMesh">
+      <UniqueIdentifier>{ee248a24-2901-4c9a-81c9-0b76012c8c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\04.DynamicMesh">
+      <UniqueIdentifier>{544bfeb4-5ece-4374-81c0-b8eee591843b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\00.MyForm\00.DlgMap">
+      <UniqueIdentifier>{57e50355-f5da-4ea2-8d26-c0ea7105a023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\00.MyForm\01.DlgObject">
+      <UniqueIdentifier>{acad6862-cbe1-431d-b3d8-5a3838512ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\04.DynamicMesh\01.Player">
+      <UniqueIdentifier>{68cc14e9-19e1-4992-9241-a0974aaa1e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\03.StaticMesh\01.Box">
+      <UniqueIdentifier>{250df90c-aa56-4c46-918c-c85f25dfa82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\04.DynamicMesh\00.DynamicObject">
+      <UniqueIdentifier>{d02d8154-78e0-4d6d-8f9b-0f16e1514814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\03.StaticMesh\00.StaticObject">
+      <UniqueIdentifier>{251144a4-5f12-43fb-b626-2e8005bc1d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\05.Navi">
+      <UniqueIdentifier>{cffcd641-9002-41ca-ae63-cfcfe0b5e62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Mgr\01.KeyMgr">
+      <UniqueIdentifier>{7c85795c-f496-418a-8454-b074b9060e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\00.MyForm\03.DlgEffect">
+      <UniqueIdentifier>{cb019a4d-91c5-417e-8560-7fc692e3cd12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\00.MyForm\02.Collision">
+      <UniqueIdentifier>{df135fb4-37f5-4727-a4b8-1d24fa7da266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\06.CollisionSphere">
+      <UniqueIdentifier>{1cf48247-0c56-48ee-9eb7-2f5f26c637da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Monster00">
+      <UniqueIdentifier>{8a0b41cd-a672-4197-a534-7fc05123ffad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Monster01">
+      <UniqueIdentifier>{96b256b9-4c45-46ec-aa7b-d5accf81ae69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Boss">
+      <UniqueIdentifier>{dc6dc594-e460-46db-8481-815c3fad2936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\07.Player_WeaPon">
+      <UniqueIdentifier>{fe2ea398-3a4d-4c94-9a4b-33293018f36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\08.Square">
+      <UniqueIdentifier>{f3973c7e-ddd6-4d87-a09e-151b0d4ecbd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\00.MyForm\04.DlgAnimation">
+      <UniqueIdentifier>{d03cb44c-0703-4440-aa64-7c2d524b8bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\03.StaticMesh\02.MonsterSword">
+      <UniqueIdentifier>{6da19884-8eb8-4725-9a8a-ce44b98c576a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Boss\Tool_Boss_Weapon">
+      <UniqueIdentifier>{6e1d7c82-b048-41c8-8ae5-05dd747b471f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\03.StaticMesh\03.Arrow">
+      <UniqueIdentifier>{76177ce7-1c6e-447b-b077-018f3112b68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Boss_Wave">
+      <UniqueIdentifier>{b9410e03-f070-4914-9327-80b454899cf1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyMap_Tool.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMap_ToolDoc.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMap_ToolView.h">
+      <Filter>01.View</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>01.View\00.MyForm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Enum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Function.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Include.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Tool_Stage.h">
+      <Filter>02.Scene\00.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Terrain.h">
+      <Filter>03.Obj\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DynamicCamera.h">
+      <Filter>03.Obj\01.DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMap.h">
+      <Filter>01.View\00.MyForm\00.DlgMap</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEffect.h">
+      <Filter>01.View\00.MyForm\03.DlgEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SkyBox.h">
+      <Filter>03.Obj\02.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Box.h">
+      <Filter>03.Obj\03.StaticMesh\01.Box</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player.h">
+      <Filter>03.Obj\04.DynamicMesh\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgObject.h">
+      <Filter>01.View\00.MyForm\01.DlgObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Tool_StaticMesh.h">
+      <Filter>03.Obj\03.StaticMesh\00.StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Navi.h">
+      <Filter>03.Obj\05.Navi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\KeyMgr.h">
+      <Filter>04.Mgr\01.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCollision.h">
+      <Filter>01.View\00.MyForm\02.Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CollisionSphere.h">
+      <Filter>03.Obj\06.CollisionSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Tool_Monster00.h">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Monster00</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Tool_Boss.h">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player_WeaPon.h">
+      <Filter>03.Obj\07.Player_WeaPon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Square.h">
+      <Filter>03.Obj\08.Square</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAnmation.h">
+      <Filter>01.View\00.MyForm\04.DlgAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Tool_Monster01.h">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Monster01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Monster00Sword.h">
+      <Filter>03.Obj\03.StaticMesh\02.MonsterSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Tool_Boss_WeaPon.h">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Boss\Tool_Boss_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Monster01Arrow.h">
+      <Filter>03.Obj\03.StaticMesh\03.Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Tool_Boss_Wave.h">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Boss_Wave</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyMap_Tool.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMap_ToolDoc.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMap_ToolView.cpp">
+      <Filter>01.View</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>01.View\00.MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Stage.cpp">
+      <Filter>02.Scene\00.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>03.Obj\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicCamera.cpp">
+      <Filter>03.Obj\01.DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMap.cpp">
+      <Filter>01.View\00.MyForm\00.DlgMap</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEffect.cpp">
+      <Filter>01.View\00.MyForm\03.DlgEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SkyBox.cpp">
+      <Filter>03.Obj\02.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Box.cpp">
+      <Filter>03.Obj\03.StaticMesh\01.Box</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>03.Obj\04.DynamicMesh\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgObject.cpp">
+      <Filter>01.View\00.MyForm\01.DlgObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_StaticMesh.cpp">
+      <Filter>03.Obj\03.StaticMesh\00.StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Navi.cpp">
+      <Filter>03.Obj\05.Navi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\KeyMgr.cpp">
+      <Filter>04.Mgr\01.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCollision.cpp">
+      <Filter>01.View\00.MyForm\02.Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CollisionSphere.cpp">
+      <Filter>03.Obj\06.CollisionSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Monster00.cpp">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Monster00</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Boss.cpp">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player_WeaPon.cpp">
+      <Filter>03.Obj\07.Player_WeaPon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Square.cpp">
+      <Filter>03.Obj\08.Square</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAnmation.cpp">
+      <Filter>01.View\00.MyForm\04.DlgAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Monster01.cpp">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Monster01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster00Sword.cpp">
+      <Filter>03.Obj\03.StaticMesh\02.MonsterSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Boss_WeaPon.cpp">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Boss\Tool_Boss_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster01Arrow.cpp">
+      <Filter>03.Obj\03.StaticMesh\03.Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Boss_Wave.cpp">
+      <Filter>03.Obj\04.DynamicMesh\00.DynamicObject\Tool_Boss_Wave</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyMap_Tool.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MyMap_Tool.rc2">
+      <Filter>99.Default\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MyMap_ToolDoc.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\MyMap_Tool.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
